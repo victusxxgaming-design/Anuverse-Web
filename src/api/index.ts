@@ -22,12 +22,12 @@ export interface PlanCategory {
 // ── Plan fetchers ─────────────────────────────────────────────────────────────
 
 export async function getVpsPlans(): Promise<PlanCategory[]> {
-  const res = await axios.get<PlanCategory[]>('/api/plans/vps')
+  const res = await axios.get<PlanCategory[]>('/api/vps-plans')
   return res.data
 }
 
 export async function getMinecraftPlans(): Promise<PlanCategory[]> {
-  const res = await axios.get<PlanCategory[]>('/api/plans/minecraft')
+  const res = await axios.get<PlanCategory[]>('/api/plans')
   return res.data
 }
 
