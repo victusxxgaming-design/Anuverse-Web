@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.pythonlibs/
+clone-data/
+attached_assets/
+pyproject.toml
+uv.lock
+replit.nix
+.local/
+.cache/
+__pycache__/
+*.pyc
+.env
+.env.*
+.agents/
+.replit
